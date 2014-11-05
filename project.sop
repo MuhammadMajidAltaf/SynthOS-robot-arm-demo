@@ -1,0 +1,22 @@
+[source]
+file = SynthOSRmctrl.c
+
+#[task]
+#entry = taskArmCmd
+#type = loop
+
+#[task]
+#entry = taskMouseRead
+#type = loop
+
+[task]
+entry = taskGripCtrl
+type = loop
+
+[task]
+entry = taskBaseCtrl
+type = loop
+
+[task]
+entry = taskShoulderCtrl
+type = loop
